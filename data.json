@@ -1,0 +1,1144 @@
+{
+  "users": [
+    {
+      "email": "morpiscompany@outlook.com",
+      "active": true
+    },
+    {
+      "email": "exemplo@exemplo.com",
+      "active": true
+    },
+    {
+      "email": "usuario2@email.com",
+      "active": true
+    },
+    {
+      "email": "cliente@email.com",
+      "active": true
+    },
+    {
+      "email": "bloqueado@email.com",
+      "active": false
+    }
+  ],
+  "questions": [
+    {
+      "grupo": "Peritônio",
+      "nome": "McBurney",
+      "descricao": "É uma referência anatômica para pesquisar dor na fossa ilíaca direita; dor nesse local pode ocorrer na apendicite.",
+      "alvo": "Sensibilidade na fossa ilíaca direita",
+      "pergunta": "Na linha entre o umbigo e a espinha ilíaca anterossuperior direita, qual ponto fica na junção do terço lateral com os dois terços mediais?",
+      "resposta": "McBurney",
+      "incompativeis": []
+    },
+    {
+      "grupo": "Peritônio",
+      "nome": "Blumberg",
+      "descricao": "O achado característico é a dor à descompressão brusca, sugestiva de irritação peritoneal, e não apenas à pressão.",
+      "alvo": "Irritação peritoneal",
+      "pergunta": "Após comprimir lentamente a parede abdominal, o examinador retira a mão de forma súbita. A dor se intensifica nesse momento. Qual sinal está presente?",
+      "resposta": "Blumberg",
+      "incompativeis": []
+    },
+    {
+      "grupo": "Peritônio",
+      "nome": "Rovsing",
+      "descricao": "A dor é percebida no lado direito apesar de a compressão ser feita à esquerda; esse achado pode apoiar a suspeita de apendicite.",
+      "alvo": "Dor contralateral à compressão",
+      "pergunta": "A compressão da fossa ilíaca esquerda provoca dor na fossa ilíaca direita. Qual sinal corresponde a esse achado?",
+      "resposta": "Rovsing",
+      "incompativeis": []
+    },
+    {
+      "grupo": "Peritônio",
+      "nome": "Psoas",
+      "descricao": "A extensão tensiona o músculo iliopsoas; a dor pode ocorrer quando há inflamação adjacente, como na apendicite retrocecal.",
+      "alvo": "Apendicite retrocecal",
+      "pergunta": "Em decúbito lateral esquerdo, a extensão passiva do quadril direito provoca dor abdominal. Qual sinal está sendo pesquisado?",
+      "resposta": "Psoas",
+      "incompativeis": [
+        "Cope",
+        "Obturador"
+      ]
+    },
+    {
+      "grupo": "Peritônio",
+      "nome": "Obturador",
+      "descricao": "A manobra mobiliza o obturador interno e pode provocar dor quando um apêndice pélvico inflamado está próximo ao músculo.",
+      "alvo": "Apendicite pélvica",
+      "pergunta": "Com o quadril e o joelho direitos flexionados, a rotação interna do quadril provoca dor hipogástrica. Qual sinal está presente?",
+      "resposta": "Obturador",
+      "incompativeis": [
+        "Cope",
+        "Psoas"
+      ]
+    },
+    {
+      "grupo": "Peritônio",
+      "nome": "Dunphy",
+      "descricao": "A presença de dor está relacionada à tosse.",
+      "alvo": "Dor à tosse",
+      "pergunta": "Durante a avaliação abdominal, o paciente apresenta dor quando tosse. Qual sinal corresponde a essa descrição?",
+      "resposta": "Dunphy",
+      "incompativeis": []
+    },
+    {
+      "grupo": "Peritônio",
+      "nome": "Aaron",
+      "descricao": "Trata-se de dor referida durante a compressão da região apendicular, e não de dor à retirada súbita da mão.",
+      "alvo": "Dor referida epigástrica ou precordial",
+      "pergunta": "A pressão sustentada na região apendicular provoca desconforto referido no epigástrio ou na região precordial. Qual sinal é descrito?",
+      "resposta": "Aaron",
+      "incompativeis": []
+    },
+    {
+      "grupo": "Peritônio",
+      "nome": "Bassler",
+      "descricao": "A técnica busca sensibilidade na região apendicular por compressão profunda com o polegar.",
+      "alvo": "Sensibilidade apendicular à compressão",
+      "pergunta": "O polegar comprime a região entre o umbigo e a espinha ilíaca anterossuperior direita contra o músculo ilíaco, provocando dor. Qual sinal histórico é pesquisado?",
+      "resposta": "Bassler",
+      "incompativeis": []
+    },
+    {
+      "grupo": "Peritônio",
+      "nome": "Markle",
+      "descricao": "A transmissão do impacto ao abdome pode provocar dor quando há irritação peritoneal.",
+      "alvo": "Dor abdominal ao impacto dos calcanhares",
+      "pergunta": "Ao passar da ponta dos pés para o apoio dos calcanhares, o paciente apresenta dor abdominal com o impacto. Qual sinal está presente?",
+      "resposta": "Markle",
+      "incompativeis": []
+    },
+    {
+      "grupo": "Peritônio",
+      "nome": "Lenander",
+      "descricao": "O critério clássico é uma temperatura retal mais de 1 °C acima da axilar. Isoladamente, esse achado não confirma apendicite.",
+      "alvo": "Diferença reto–axila superior a 1 °C",
+      "pergunta": "Na avaliação de dor abdominal, a temperatura retal excede a axilar em mais de 1 °C. Qual sinal clássico descreve essa diferença?",
+      "resposta": "Lenander",
+      "incompativeis": []
+    },
+    {
+      "grupo": "Peritônio",
+      "nome": "Ten Horn",
+      "descricao": "O sinal é considerado presente quando a tração provoca dor abdominal, não pela simples execução da manobra.",
+      "alvo": "Leve tração do testículo direito",
+      "pergunta": "A tração delicada do testículo direito provoca dor abdominal na região apendicular. Qual sinal histórico é descrito?",
+      "resposta": "Ten Horn",
+      "incompativeis": []
+    },
+    {
+      "grupo": "Peritônio",
+      "nome": "Cope",
+      "descricao": "Cope descreveu os testes do psoas e do obturador. Aqui, o termo se refere ao teste do obturador; deslocar o pé para fora produz rotação interna do quadril.",
+      "alvo": "Irritação do obturador interno",
+      "pergunta": "Qual epônimo também é associado ao teste que provoca dor hipogástrica pela rotação interna do quadril direito flexionado?",
+      "resposta": "Cope",
+      "incompativeis": [
+        "Obturador",
+        "Psoas"
+      ]
+    },
+    {
+      "grupo": "Peritônio",
+      "nome": "Chutro",
+      "descricao": "Avaliação visual na qual o umbigo fica mais deslocado para a direita.",
+      "alvo": "Umbigo mais para a direita",
+      "pergunta": "Durante a inspeção do abdome, observa-se que o umbigo está mais deslocado para a direita. Qual sinal corresponde a essa descrição?",
+      "resposta": "Chutro",
+      "incompativeis": []
+    },
+    {
+      "grupo": "Peritônio",
+      "nome": "Lapinsky",
+      "descricao": "O teste associa a palpação da região apendicular à contração muscular provocada pela elevação do membro.",
+      "alvo": "Compressão do ponto e elevação da perna direita esticada",
+      "pergunta": "A palpação profunda da fossa ilíaca direita torna-se dolorosa quando o paciente eleva o membro inferior direito com o joelho estendido. Qual sinal é pesquisado?",
+      "resposta": "Lapinsky",
+      "incompativeis": []
+    },
+    {
+      "grupo": "Peritônio",
+      "nome": "Rosenstein",
+      "descricao": "A mudança de posição pode aumentar a dor apendicular. A nomenclatura desse achado apresenta sobreposição com outros sinais posicionais.",
+      "alvo": "Dor com mudança de decúbito",
+      "pergunta": "Em um paciente com suspeita de apendicite, a dor na fossa ilíaca direita aumenta ao passar do decúbito dorsal para o lateral esquerdo. Qual sinal é descrito?",
+      "resposta": "Rosenstein",
+      "incompativeis": [
+        "Bartomier-Michel"
+      ]
+    },
+    {
+      "grupo": "Peritônio",
+      "nome": "Bartomier-Michel",
+      "descricao": "O achado é o aumento da sensibilidade apendicular à palpação em decúbito lateral esquerdo. Sua descrição se sobrepõe à de Rosenstein.",
+      "alvo": "Sensibilidade apendicular em decúbito lateral esquerdo",
+      "pergunta": "A palpação da região apendicular provoca mais dor em decúbito lateral esquerdo do que em decúbito dorsal. Qual sinal é descrito?",
+      "resposta": "Bartomier-Michel",
+      "incompativeis": [
+        "Rosenstein"
+      ]
+    },
+    {
+      "grupo": "Peritônio",
+      "nome": "Summer",
+      "descricao": "Nessa convenção, Summer designa defesa muscular involuntária. Algumas referências usam o nome para hiperestesia cutânea; a terminologia varia entre escolas.",
+      "alvo": "Defesa muscular involuntária",
+      "pergunta": "Na nomenclatura que associa este epônimo à defesa muscular, qual sinal descreve a contração involuntária da parede abdominal sobre uma área de inflamação peritoneal?",
+      "resposta": "Summer",
+      "incompativeis": []
+    },
+    {
+      "grupo": "Peritônio",
+      "nome": "Volkovitch-Kocher",
+      "descricao": "A migração da dor é compatível com a evolução da dor visceral inicial para irritação localizada do peritônio parietal na apendicite.",
+      "alvo": "Migração da dor para a fossa ilíaca direita",
+      "pergunta": "A dor começa no epigástrio e, horas depois, se localiza na fossa ilíaca direita. Qual sinal descreve essa evolução?",
+      "resposta": "Volkovitch-Kocher",
+      "incompativeis": []
+    },
+    {
+      "grupo": "Vesícula biliar e vias biliares",
+      "nome": "Murphy",
+      "descricao": "A interrupção inspiratória dolorosa durante a palpação da região vesicular sugere colecistite no contexto clínico adequado.",
+      "alvo": "Dor vesicular com interrupção inspiratória",
+      "pergunta": "Durante a palpação subcostal direita, o paciente interrompe a inspiração profunda por dor. Qual sinal está presente?",
+      "resposta": "Murphy",
+      "incompativeis": [
+        "Chiray",
+        "Pron"
+      ]
+    },
+    {
+      "grupo": "Vesícula biliar e vias biliares",
+      "nome": "Pron",
+      "descricao": "A pressão com os polegares permite pesquisar sensibilidade na projeção da vesícula durante a descida inspiratória.",
+      "alvo": "Sensibilidade da região vesicular",
+      "pergunta": "Em decúbito dorsal, o examinador apoia os polegares sob o rebordo costal direito e pesquisa dor durante a inspiração. Qual manobra vesicular utiliza essa técnica?",
+      "resposta": "Pron",
+      "incompativeis": [
+        "Chiray",
+        "Murphy"
+      ]
+    },
+    {
+      "grupo": "Vesícula biliar e vias biliares",
+      "nome": "Chiray",
+      "descricao": "A posição lateral esquerda facilita a exploração da região vesicular pela palpação subcostal.",
+      "alvo": "Palpação vesicular em decúbito lateral esquerdo",
+      "pergunta": "O paciente fica em decúbito lateral esquerdo, com os membros inferiores flexionados, enquanto se pesquisa dor sob o rebordo costal direito durante a inspiração. Qual manobra é descrita?",
+      "resposta": "Chiray",
+      "incompativeis": [
+        "Murphy",
+        "Pron"
+      ]
+    },
+    {
+      "grupo": "Vesícula biliar e vias biliares",
+      "nome": "Courvoisier",
+      "descricao": "A associação sugere obstrução biliar distal, frequentemente de causa neoplásica, mas não determina a etiologia isoladamente.",
+      "alvo": "Icterícia com vesícula palpável indolor",
+      "pergunta": "Um paciente com icterícia apresenta vesícula aumentada, palpável e indolor. Qual sinal corresponde a essa associação?",
+      "resposta": "Courvoisier",
+      "incompativeis": []
+    },
+    {
+      "grupo": "Fígado",
+      "nome": "Mathieu",
+      "descricao": "A palpação hepática em garra usa os dedos flexionados para perceber a borda que desce durante a inspiração; não é realizada com o punho fechado.",
+      "alvo": "Borda hepática por palpação em garra",
+      "pergunta": "Voltado para os pés do paciente, o examinador posiciona os dedos curvados junto ao rebordo costal direito para sentir a borda do fígado na inspiração. Qual técnica é utilizada?",
+      "resposta": "Mathieu",
+      "incompativeis": []
+    },
+    {
+      "grupo": "Fígado",
+      "nome": "Gilbert",
+      "descricao": "A técnica bimanual utiliza as mãos apoiadas anteriormente para delimitar a borda hepática durante a respiração.",
+      "alvo": "Palpação hepática bimanual anterior",
+      "pergunta": "Na palpação hepática, as mãos ficam no abdome com os dedos formando um ângulo e as bordas radiais próximas, acompanhando a descida do órgão. Qual técnica é descrita?",
+      "resposta": "Gilbert",
+      "incompativeis": []
+    },
+    {
+      "grupo": "Fígado",
+      "nome": "Chauffard",
+      "descricao": "O rechaço posterior aproxima o fígado da mão anterior, facilitando a percepção da borda.",
+      "alvo": "Rechaço hepático bimanual",
+      "pergunta": "Uma mão aplicada à região lombar direita transmite pequenos impulsos, enquanto a outra procura a borda hepática na parede abdominal anterior. Qual técnica é utilizada?",
+      "resposta": "Chauffard",
+      "incompativeis": []
+    },
+    {
+      "grupo": "Fígado",
+      "nome": "Riedel",
+      "descricao": "O lobo de Riedel é uma variante anatômica do fígado, e não uma manobra de exame físico.",
+      "alvo": "Alteração do contorno/lobo hepático",
+      "pergunta": "Uma projeção inferior alongada do lobo direito do fígado pode simular uma massa sem representar aumento difuso do órgão. Qual variante anatômica é essa?",
+      "resposta": "Riedel",
+      "incompativeis": []
+    },
+    {
+      "grupo": "Vesícula biliar e vias biliares",
+      "nome": "Lépine",
+      "descricao": "Percute-se a região da vesícula com o dedo médio dobrado e observa-se dor.",
+      "alvo": "Dor à percussão da vesícula",
+      "pergunta": "Qual técnica envolve percutir a região da vesícula com o dedo médio dobrado e observar se ocorre dor?",
+      "resposta": "Lépine",
+      "incompativeis": []
+    },
+    {
+      "grupo": "Fígado",
+      "nome": "Percussão hepática",
+      "descricao": "A distância entre os limites superior e inferior da macicez permite estimar a extensão vertical do fígado.",
+      "alvo": "Limites e tamanho do fígado",
+      "pergunta": "O examinador identifica a transição entre ressonância pulmonar, som maciço e timpanismo abdominal ao longo da linha hemiclavicular direita. Qual técnica permite estimar a extensão do órgão?",
+      "resposta": "Percussão hepática",
+      "incompativeis": []
+    },
+    {
+      "grupo": "Fígado",
+      "nome": "Jobert",
+      "descricao": "A substituição da macicez hepática por timpanismo pode indicar ar livre na cavidade peritoneal.",
+      "alvo": "Suspeita de pneumoperitônio",
+      "pergunta": "À percussão, a região normalmente maciça sobre o fígado apresenta som timpânico em um paciente com dor abdominal aguda. Qual sinal está presente?",
+      "resposta": "Jobert",
+      "incompativeis": []
+    },
+    {
+      "grupo": "Baço",
+      "nome": "Palpação bimanual do baço",
+      "descricao": "O apoio posterior aproxima o baço da mão abdominal, permitindo pesquisar sua borda quando o órgão está aumentado.",
+      "alvo": "Pesquisa da borda esplênica",
+      "pergunta": "Em decúbito dorsal, uma mão sustenta o hemitórax esquerdo por trás, enquanto a outra procura uma borda abaixo do rebordo costal esquerdo durante a inspiração. Qual técnica é essa?",
+      "resposta": "Palpação bimanual do baço",
+      "incompativeis": [
+        "Merlo",
+        "Naegeli",
+        "Schuster"
+      ]
+    },
+    {
+      "grupo": "Baço",
+      "nome": "Enganche do baço",
+      "descricao": "A palpação em gancho procura a borda do baço durante sua descida inspiratória. A técnica se sobrepõe à manobra de Middleton.",
+      "alvo": "Esplenomegalia",
+      "pergunta": "Os dedos curvados sob o rebordo costal esquerdo procuram perceber a descida de uma borda visceral durante a inspiração. Qual técnica esplênica é descrita?",
+      "resposta": "Enganche do baço",
+      "incompativeis": [
+        "Middleton"
+      ]
+    },
+    {
+      "grupo": "Baço",
+      "nome": "Middleton",
+      "descricao": "A técnica utiliza as pontas dos dedos em gancho para sentir o baço durante a inspiração; não se define por uma mão fechada sob o órgão.",
+      "alvo": "Palpação esplênica em gancho",
+      "pergunta": "Qual epônimo também é associado à técnica de palpação esplênica em que o examinador, próximo à cabeça do paciente, curva os dedos sob o rebordo costal esquerdo?",
+      "resposta": "Middleton",
+      "incompativeis": [
+        "Enganche do baço"
+      ]
+    },
+    {
+      "grupo": "Baço",
+      "nome": "Naegeli",
+      "descricao": "Essa posição facilita o deslocamento do baço para a região palpável. A nomenclatura e as variantes posturais podem se sobrepor à posição de Schuster.",
+      "alvo": "Posicionamento para palpação esplênica",
+      "pergunta": "Qual posição para a palpação do baço utiliza decúbito oblíquo direito, intermediário entre o dorsal e o lateral?",
+      "resposta": "Naegeli",
+      "incompativeis": [
+        "Merlo",
+        "Palpação bimanual do baço",
+        "Schuster"
+      ]
+    },
+    {
+      "grupo": "Baço",
+      "nome": "Merlo",
+      "descricao": "A pressão abdominal auxilia a aproximação do baço à mão que palpa em direção ao hipocôndrio esquerdo.",
+      "alvo": "Palpação esplênica com pressão abdominal auxiliar",
+      "pergunta": "Com o paciente em decúbito oblíquo direito, uma mão pressiona a fossa ilíaca direita em direção ao hipocôndrio direito e a outra busca o baço durante a inspiração. Qual manobra é descrita?",
+      "resposta": "Merlo",
+      "incompativeis": [
+        "Naegeli",
+        "Palpação bimanual do baço",
+        "Schuster"
+      ]
+    },
+    {
+      "grupo": "Baço",
+      "nome": "Nixon",
+      "descricao": "Paciente em decúbito lateral direito, realizando-se percussão.",
+      "alvo": "Paciente de lado direito + percussão",
+      "pergunta": "Qual técnica do baço é realizada com o paciente deitado sobre o lado direito e com percussão?",
+      "resposta": "Nixon",
+      "incompativeis": []
+    },
+    {
+      "grupo": "Baço",
+      "nome": "Schuster",
+      "descricao": "Paciente em posição lateral de aproximadamente 45°, com a perna esquerda flexionada; realiza-se tração do abdome e palpação.",
+      "alvo": "45°, perna esquerda flexionada, tração abdominal e palpação",
+      "pergunta": "Qual técnica é realizada com o paciente em posição lateral de aproximadamente 45°, com a perna esquerda flexionada, seguida de tração do abdome e palpação?",
+      "resposta": "Schuster",
+      "incompativeis": [
+        "Merlo",
+        "Naegeli",
+        "Palpação bimanual do baço"
+      ]
+    },
+    {
+      "grupo": "Baço",
+      "nome": "Espaço de Traube",
+      "descricao": "A região fica entre a sexta costela, o rebordo costal esquerdo e a linha axilar anterior. Macicez nesse local pode sugerir esplenomegalia, mas não é específica.",
+      "alvo": "Timpanismo gástrico e pesquisa de esplenomegalia",
+      "pergunta": "Qual região semilunar do hemitórax esquerdo, normalmente timpânica pela bolha gástrica, pode tornar-se maciça quando o baço aumenta?",
+      "resposta": "Espaço de Traube",
+      "incompativeis": []
+    },
+    {
+      "grupo": "Rim",
+      "nome": "Guyon",
+      "descricao": "A mão posterior realiza movimentos de impulso enquanto a mão superior realiza a palpação; as pernas ficam levemente flexionadas.",
+      "alvo": "Palpação renal com rechaço posterior",
+      "pergunta": "Qual técnica renal utiliza uma mão posteriormente para realizar impulsos e a mão superior para palpação, com as pernas levemente flexionadas?",
+      "resposta": "Guyon",
+      "incompativeis": []
+    },
+    {
+      "grupo": "Rim",
+      "nome": "Goelet",
+      "descricao": "Utiliza as duas mãos, com o paciente colocando a perna ajoelhada sobre uma cadeira.",
+      "alvo": "Palpação renal em posição ortostática com apoio",
+      "pergunta": "Qual técnica renal utiliza as duas mãos e é descrita com o paciente colocando uma perna ajoelhada sobre uma cadeira?",
+      "resposta": "Goelet",
+      "incompativeis": []
+    },
+    {
+      "grupo": "Rim",
+      "nome": "Israel",
+      "descricao": "O paciente deita sobre o lado oposto ao rim que será examinado.",
+      "alvo": "Decúbito lateral oposto ao rim examinado",
+      "pergunta": "Em qual técnica renal o paciente é colocado de lado, sobre o lado oposto ao rim que será examinado?",
+      "resposta": "Israel",
+      "incompativeis": []
+    },
+    {
+      "grupo": "Rim",
+      "nome": "Punho-percussão de Giordano",
+      "descricao": "A dor provocada pode ocorrer em afecções renais, como pielonefrite, mas não confirma uma causa isoladamente. Há variações diretas e indiretas da técnica.",
+      "alvo": "Dor renal/pielonefrite",
+      "pergunta": "Golpes suaves com a borda ulnar do punho na região lombar provocam dor no ângulo costovertebral. Qual técnica é descrita?",
+      "resposta": "Punho-percussão de Giordano",
+      "incompativeis": [
+        "Murphy renal"
+      ]
+    },
+    {
+      "grupo": "Rim",
+      "nome": "Murphy renal",
+      "descricao": "Na variante indireta, uma mão protege a região costovertebral e recebe o golpe suave do punho oposto. A nomenclatura se sobrepõe à punho-percussão de Giordano.",
+      "alvo": "Punho-percussão sobre outra mão",
+      "pergunta": "Qual técnica renal é descrita pela realização de percussão com o punho sobre a outra mão?",
+      "resposta": "Murphy renal",
+      "incompativeis": [
+        "Punho-percussão de Giordano"
+      ]
+    },
+    {
+      "grupo": "Vias urinárias / Ureter",
+      "nome": "Ponto ureteral superior",
+      "descricao": "Esse ponto corresponde à projeção clínica da junção pieloureteral e pode ser sensível em afecções urinárias.",
+      "alvo": "Dor/irritação ureteral",
+      "pergunta": "Qual ponto doloroso fica no encontro da linha horizontal que passa pelo umbigo com a borda lateral do músculo reto abdominal?",
+      "resposta": "Ponto ureteral superior",
+      "incompativeis": []
+    },
+    {
+      "grupo": "Vias urinárias / Ureter",
+      "nome": "Ponto ureteral médio — Tourneux",
+      "descricao": "É uma referência para a região em que o ureter cruza os vasos ilíacos.",
+      "alvo": "Dor ureteral",
+      "pergunta": "Qual ponto doloroso se pesquisa na linha que une as espinhas ilíacas anterossuperiores, próximo à borda lateral do reto abdominal?",
+      "resposta": "Ponto ureteral médio — Tourneux",
+      "incompativeis": []
+    },
+    {
+      "grupo": "Vias urinárias / Ureter",
+      "nome": "Ponto ureteral inferior",
+      "descricao": "Corresponde à porção justavesical do ureter; sua pesquisa depende da via de exame pélvico adequada.",
+      "alvo": "Dor ureteral",
+      "pergunta": "Qual ponto do trajeto urinário, junto à entrada na bexiga, é acessível por toque vaginal ou retal, e não pela palpação abdominal habitual?",
+      "resposta": "Ponto ureteral inferior",
+      "incompativeis": []
+    },
+    {
+      "grupo": "Pâncreas",
+      "nome": "Manobra de Grott",
+      "descricao": "O apoio posterior modifica a posição do tronco e favorece a exploração profunda da região pancreática.",
+      "alvo": "Palpação profunda da região pancreática",
+      "pergunta": "Para facilitar a palpação profunda do pâncreas, coloca-se um apoio sob a região lombar do paciente em decúbito dorsal. Qual manobra utiliza esse recurso?",
+      "resposta": "Manobra de Grott",
+      "incompativeis": []
+    },
+    {
+      "grupo": "Pâncreas",
+      "nome": "Ponto doloroso de Desjardins",
+      "descricao": "É uma referência de superfície para a região da cabeça pancreática; a dor local deve ser interpretada com os demais achados.",
+      "alvo": "Sensibilidade na região da cabeça pancreática",
+      "pergunta": "Qual ponto pancreático se localiza cerca de 5 a 7 cm acima do umbigo, na linha que segue em direção à axila direita?",
+      "resposta": "Ponto doloroso de Desjardins",
+      "incompativeis": []
+    },
+    {
+      "grupo": "Estômago",
+      "nome": "Glenard — faixa de Glenard",
+      "descricao": "A sustentação abdominal é uma manobra histórica usada na avaliação de sintomas atribuídos à ptose visceral.",
+      "alvo": "Sintomas associados à ptose visceral",
+      "pergunta": "Em pé atrás do paciente, o examinador sustenta e eleva a parede abdominal para verificar se o desconforto melhora. Qual manobra é descrita?",
+      "resposta": "Glenard — faixa de Glenard",
+      "incompativeis": []
+    },
+    {
+      "grupo": "Estômago",
+      "nome": "Bazuqueio de Chaumel",
+      "descricao": "Relaciona-se à pesquisa de ruído hidroaéreo ou chapoteio gástrico.",
+      "alvo": "Ruído hidroaéreo/chapoteio gástrico",
+      "pergunta": "Qual manobra está relacionada à pesquisa de ruído hidroaéreo ou de chapoteio gástrico?",
+      "resposta": "Bazuqueio de Chaumel",
+      "incompativeis": []
+    },
+    {
+      "grupo": "Aorta",
+      "nome": "Palpação da aorta abdominal",
+      "descricao": "A técnica avalia o caráter expansivo da pulsação e a largura aproximada do vaso; a suspeita de dilatação exige confirmação por imagem.",
+      "alvo": "Avaliação da aorta/expansão pulsátil/aneurisma",
+      "pergunta": "Ao examinar uma pulsação no epigástrio, o examinador posiciona os dedos de ambos os lados para estimar a largura e perceber expansão lateral. Qual técnica é utilizada?",
+      "resposta": "Palpação da aorta abdominal",
+      "incompativeis": []
+    },
+    {
+      "grupo": "Hemorragia / Pancreatite hemorrágica",
+      "nome": "Cullen",
+      "descricao": "Presença de equimose na região periumbilical. Pode acompanhar hemorragia interna e não é exclusivo de pancreatite.",
+      "alvo": "Equimose periumbilical",
+      "pergunta": "Qual sinal é caracterizado pela presença de equimose na região ao redor do umbigo?",
+      "resposta": "Cullen",
+      "incompativeis": []
+    },
+    {
+      "grupo": "Hemorragia / Pancreatite hemorrágica",
+      "nome": "Grey-Turner",
+      "descricao": "Presença de equimose nos flancos. Pode acompanhar hemorragia interna e não é exclusivo de pancreatite.",
+      "alvo": "Equimose nos flancos",
+      "pergunta": "Qual sinal é caracterizado pela presença de equimoses nos flancos?",
+      "resposta": "Grey-Turner",
+      "incompativeis": []
+    },
+    {
+      "grupo": "Hemorragia / Pancreatite hemorrágica",
+      "nome": "Fox",
+      "descricao": "O sangue pode atingir o tecido subcutâneo da coxa ao percorrer planos fasciais retroperitoneais.",
+      "alvo": "Equimose na porção proximal da coxa",
+      "pergunta": "Em um paciente com hemorragia retroperitoneal, surge equimose na porção proximal da coxa, abaixo do ligamento inguinal. Qual sinal é descrito?",
+      "resposta": "Fox",
+      "incompativeis": []
+    },
+    {
+      "grupo": "Hemorragia / Pancreatite hemorrágica",
+      "nome": "Bryant",
+      "descricao": "Alterações hemorrágicas na região escrotal. Pode acompanhar hemorragia interna e não é exclusivo de pancreatite.",
+      "alvo": "Alterações hemorrágicas em região escrotal",
+      "pergunta": "Qual sinal está relacionado a alterações hemorrágicas na região escrotal?",
+      "resposta": "Bryant",
+      "incompativeis": []
+    },
+    {
+      "grupo": "Ascite",
+      "nome": "Piparote",
+      "descricao": "A transmissão do impulso pelo líquido pode ser percebida na ascite volumosa. Piparote e onda líquida são denominações equivalentes.",
+      "alvo": "Ascite volumosa",
+      "pergunta": "Um impulso aplicado a um flanco é percebido pela mão no flanco oposto, enquanto um apoio na linha média reduz a transmissão pela pele. Qual manobra é essa?",
+      "resposta": "Piparote",
+      "incompativeis": [
+        "Onda líquida"
+      ]
+    },
+    {
+      "grupo": "Ascite",
+      "nome": "Macicez móvel",
+      "descricao": "O líquido livre se redistribui com a gravidade, mudando o limite entre macicez e timpanismo.",
+      "alvo": "Líquido livre na cavidade",
+      "pergunta": "Após o paciente passar do decúbito dorsal para o lateral, a área de som maciço à percussão se desloca para a região dependente. Qual sinal está presente?",
+      "resposta": "Macicez móvel",
+      "incompativeis": []
+    },
+    {
+      "grupo": "Ascite",
+      "nome": "Semicírculo de Skoda",
+      "descricao": "Na ascite, as alças com gás tendem a ocupar a região central, enquanto o líquido se acumula nas áreas dependentes.",
+      "alvo": "Ascite",
+      "pergunta": "Em decúbito dorsal, a percussão revela timpanismo central e macicez nos flancos e no baixo ventre, com limite de concavidade superior. Qual achado é descrito?",
+      "resposta": "Semicírculo de Skoda",
+      "incompativeis": []
+    },
+    {
+      "grupo": "Ascite",
+      "nome": "Onda líquida",
+      "descricao": "É o mesmo fenômeno pesquisado pelo piparote. O apoio na linha média ajuda a reduzir a transmissão superficial.",
+      "alvo": "Ascite",
+      "pergunta": "Na pesquisa de ascite, uma mão detecta no flanco oposto o impulso transmitido após uma percussão lateral. Qual achado é percebido?",
+      "resposta": "Onda líquida",
+      "incompativeis": [
+        "Piparote"
+      ]
+    },
+    {
+      "grupo": "Hérnias e massas",
+      "nome": "Valsalva",
+      "descricao": "O esforço aumenta a pressão intra-abdominal e pode tornar uma hérnia mais evidente.",
+      "alvo": "Hérnias/massas que aumentam com pressão",
+      "pergunta": "Solicita-se uma expiração forçada contra a glote fechada para observar se uma protrusão abdominal aumenta. Qual manobra é utilizada?",
+      "resposta": "Valsalva",
+      "incompativeis": []
+    },
+    {
+      "grupo": "Hérnias e massas",
+      "nome": "Landivar",
+      "descricao": "O bloqueio do anel profundo auxilia na diferenciação clínica entre hérnias inguinais indiretas e diretas.",
+      "alvo": "Hérnia inguinal",
+      "pergunta": "Após reduzir uma hérnia inguinal, o examinador comprime a projeção do anel profundo e pede ao paciente que faça esforço, observando se a protrusão reaparece. Qual manobra é essa?",
+      "resposta": "Landivar",
+      "incompativeis": []
+    },
+    {
+      "grupo": "Hérnias e massas",
+      "nome": "Zieman",
+      "descricao": "A localização do impulso percebido pelos dedos auxilia na distinção entre protrusões inguinais e femorais.",
+      "alvo": "Diferenciação de hérnias",
+      "pergunta": "O examinador posiciona três dedos sobre as projeções dos anéis inguinais e do canal femoral e pede ao paciente que tussa. Qual manobra é descrita?",
+      "resposta": "Zieman",
+      "incompativeis": []
+    },
+    {
+      "grupo": "Hérnias e massas",
+      "nome": "Deslizamento de Glenard",
+      "descricao": "O movimento transversal dos dedos permite reconhecer o contorno de segmentos intestinais ou de outras estruturas palpáveis.",
+      "alvo": "Massas/órgãos móveis",
+      "pergunta": "Na palpação profunda, os dedos atravessam transversalmente uma estrutura abdominal durante a expiração para avaliar forma, consistência e mobilidade. Qual técnica é descrita?",
+      "resposta": "Deslizamento de Glenard",
+      "incompativeis": []
+    },
+    {
+      "grupo": "Hérnias e massas",
+      "nome": "Palpação do ceco",
+      "descricao": "A exploração dessa porção inicial do intestino grosso avalia sensibilidade, distensão e consistência.",
+      "alvo": "Avaliação do ceco",
+      "pergunta": "Na fossa ilíaca direita, procura-se uma estrutura intestinal arredondada e compressível que pode produzir gorgolejo à pressão. Qual técnica é utilizada?",
+      "resposta": "Palpação do ceco",
+      "incompativeis": []
+    },
+    {
+      "grupo": "Hérnias e massas",
+      "nome": "Morris",
+      "descricao": "O ponto de Morris fica mais próximo do umbigo que o ponto de McBurney e é uma referência para pesquisar sensibilidade apendicular.",
+      "alvo": "Região apendicular",
+      "pergunta": "Qual ponto apendicular se situa na linha entre o umbigo e a espinha ilíaca anterossuperior direita, na junção do terço medial com os dois terços laterais?",
+      "resposta": "Morris",
+      "incompativeis": []
+    }
+  ],
+  "traducoesES": {
+    "McBurney": {
+      "grupo": "Peritoneo",
+      "nome": "McBurney",
+      "descricao": "Es una referencia anatómica para buscar dolor en la fosa ilíaca derecha; puede ser doloroso en la apendicitis.",
+      "alvo": "Sensibilidad en la fosa ilíaca derecha",
+      "pergunta": "En la línea entre el ombligo y la espina ilíaca anterosuperior derecha, ¿qué punto se sitúa en la unión del tercio lateral con los dos tercios mediales?"
+    },
+    "Blumberg": {
+      "grupo": "Peritoneo",
+      "nome": "Blumberg",
+      "descricao": "El hallazgo característico es el dolor a la descompresión brusca, sugestivo de irritación peritoneal, y no solo a la presión.",
+      "alvo": "Irritación peritoneal",
+      "pergunta": "Tras comprimir lentamente la pared abdominal, el examinador retira la mano de forma súbita y el dolor aumenta. ¿Qué signo está presente?"
+    },
+    "Rovsing": {
+      "grupo": "Peritoneo",
+      "nome": "Rovsing",
+      "descricao": "El dolor se percibe a la derecha aunque la compresión se realiza a la izquierda; puede apoyar la sospecha de apendicitis.",
+      "alvo": "Dolor contralateral a la compresión",
+      "pergunta": "La compresión de la fosa ilíaca izquierda provoca dolor en la fosa ilíaca derecha. ¿Qué signo corresponde a este hallazgo?"
+    },
+    "Psoas": {
+      "grupo": "Peritoneo",
+      "nome": "Psoas",
+      "descricao": "La extensión tensa el músculo iliopsoas; puede doler cuando existe inflamación adyacente, como en la apendicitis retrocecal.",
+      "alvo": "Apendicitis retrocecal",
+      "pergunta": "En decúbito lateral izquierdo, la extensión pasiva de la cadera derecha provoca dolor abdominal. ¿Qué signo se investiga?"
+    },
+    "Obturador": {
+      "grupo": "Peritoneo",
+      "nome": "Obturador",
+      "descricao": "La maniobra moviliza el obturador interno y puede provocar dolor si un apéndice pélvico inflamado está próximo al músculo.",
+      "alvo": "Apendicitis pélvica",
+      "pergunta": "Con la cadera y la rodilla derechas flexionadas, la rotación interna de la cadera provoca dolor hipogástrico. ¿Qué signo está presente?"
+    },
+    "Dunphy": {
+      "grupo": "Peritoneo",
+      "nome": "Dunphy",
+      "descricao": "La presencia de dolor está relacionada con la tos.",
+      "alvo": "Dolor al toser",
+      "pergunta": "Durante la evaluación abdominal, el paciente presenta dolor al toser. ¿Qué signo corresponde a esta descripción?"
+    },
+    "Aaron": {
+      "grupo": "Peritoneo",
+      "nome": "Aaron",
+      "descricao": "Se trata de dolor referido durante la compresión de la región apendicular, no de dolor al retirar súbitamente la mano.",
+      "alvo": "Dolor referido epigástrico o precordial",
+      "pergunta": "La presión sostenida en la región apendicular provoca molestias referidas al epigastrio o a la región precordial. ¿Qué signo se describe?"
+    },
+    "Bassler": {
+      "grupo": "Peritoneo",
+      "nome": "Bassler",
+      "descricao": "La técnica busca sensibilidad en la región apendicular mediante compresión profunda con el pulgar.",
+      "alvo": "Sensibilidad apendicular a la compresión",
+      "pergunta": "El pulgar comprime la región entre el ombligo y la espina ilíaca anterosuperior derecha contra el músculo ilíaco y provoca dolor. ¿Qué signo histórico se investiga?"
+    },
+    "Markle": {
+      "grupo": "Peritoneo",
+      "nome": "Markle",
+      "descricao": "La transmisión del impacto al abdomen puede provocar dolor si existe irritación peritoneal.",
+      "alvo": "Dolor abdominal al impacto de los talones",
+      "pergunta": "Al pasar de puntillas al apoyo de los talones, el paciente presenta dolor abdominal con el impacto. ¿Qué signo está presente?"
+    },
+    "Lenander": {
+      "grupo": "Peritoneo",
+      "nome": "Lenander",
+      "descricao": "El criterio clásico es una temperatura rectal más de 1 °C por encima de la axilar. Este hallazgo aislado no confirma apendicitis.",
+      "alvo": "Diferencia recto–axila superior a 1 °C",
+      "pergunta": "Al evaluar dolor abdominal, la temperatura rectal supera a la axilar en más de 1 °C. ¿Qué signo clásico describe esta diferencia?"
+    },
+    "Ten Horn": {
+      "grupo": "Peritoneo",
+      "nome": "Ten Horn",
+      "descricao": "El signo se considera presente cuando la tracción provoca dolor abdominal, no por la simple ejecución de la maniobra.",
+      "alvo": "Ligera tracción del testículo derecho",
+      "pergunta": "La tracción delicada del testículo derecho provoca dolor abdominal en la región apendicular. ¿Qué signo histórico se describe?"
+    },
+    "Cope": {
+      "grupo": "Peritoneo",
+      "nome": "Cope",
+      "descricao": "Cope describió las pruebas del psoas y del obturador. Aquí se refiere a la prueba del obturador; desplazar el pie hacia fuera produce rotación interna de la cadera.",
+      "alvo": "Irritación del obturador interno",
+      "pergunta": "¿Qué epónimo también se asocia con la prueba que provoca dolor hipogástrico mediante rotación interna de la cadera derecha flexionada?"
+    },
+    "Chutro": {
+      "grupo": "Peritoneo",
+      "nome": "Chutro",
+      "descricao": "Evaluación visual en la que el ombligo queda más desplazado hacia la derecha.",
+      "alvo": "Ombligo más hacia la derecha",
+      "pergunta": "Durante la inspección del abdomen, se observa que el ombligo está más desplazado hacia la derecha. ¿Qué signo corresponde a esta descripción?"
+    },
+    "Lapinsky": {
+      "grupo": "Peritoneo",
+      "nome": "Lapinsky",
+      "descricao": "La prueba combina la palpación de la región apendicular con la contracción muscular provocada por la elevación de la extremidad.",
+      "alvo": "Compresión del punto y elevación de la pierna derecha extendida",
+      "pergunta": "La palpación profunda de la fosa ilíaca derecha se vuelve dolorosa al elevar la extremidad inferior derecha con la rodilla extendida. ¿Qué signo se investiga?"
+    },
+    "Rosenstein": {
+      "grupo": "Peritoneo",
+      "nome": "Rosenstein",
+      "descricao": "El cambio de posición puede aumentar el dolor apendicular. La nomenclatura de este hallazgo se superpone con otros signos posicionales.",
+      "alvo": "Dolor con cambio de decúbito",
+      "pergunta": "En un paciente con sospecha de apendicitis, el dolor en la fosa ilíaca derecha aumenta al pasar del decúbito supino al lateral izquierdo. ¿Qué signo se describe?"
+    },
+    "Bartomier-Michel": {
+      "grupo": "Peritoneo",
+      "nome": "Bartomier-Michel",
+      "descricao": "El hallazgo es el aumento de sensibilidad apendicular a la palpación en decúbito lateral izquierdo. Su descripción se superpone con la de Rosenstein.",
+      "alvo": "Sensibilidad apendicular en decúbito lateral izquierdo",
+      "pergunta": "La palpación de la región apendicular provoca más dolor en decúbito lateral izquierdo que en decúbito supino. ¿Qué signo se describe?"
+    },
+    "Summer": {
+      "grupo": "Peritoneo",
+      "nome": "Summer",
+      "descricao": "En esta convención, Summer designa defensa muscular involuntaria. Algunas referencias usan el nombre para hiperestesia cutánea; la terminología varía entre escuelas.",
+      "alvo": "Defensa muscular involuntaria",
+      "pergunta": "En la nomenclatura que asocia este epónimo con la defensa muscular, ¿qué signo describe la contracción involuntaria de la pared abdominal sobre una zona de inflamación peritoneal?"
+    },
+    "Volkovitch-Kocher": {
+      "grupo": "Peritoneo",
+      "nome": "Volkovitch-Kocher",
+      "descricao": "La migración es compatible con la evolución del dolor visceral inicial hacia irritación localizada del peritoneo parietal en la apendicitis.",
+      "alvo": "Migración del dolor a la fosa ilíaca derecha",
+      "pergunta": "El dolor comienza en el epigastrio y, horas después, se localiza en la fosa ilíaca derecha. ¿Qué signo describe esta evolución?"
+    },
+    "Murphy": {
+      "grupo": "Vesícula biliar y vías biliares",
+      "nome": "Murphy",
+      "descricao": "La interrupción inspiratoria dolorosa durante la palpación de la región vesicular sugiere colecistitis en el contexto clínico adecuado.",
+      "alvo": "Dolor vesicular con interrupción inspiratoria",
+      "pergunta": "Durante la palpación subcostal derecha, el paciente interrumpe la inspiración profunda por dolor. ¿Qué signo está presente?"
+    },
+    "Pron": {
+      "grupo": "Vesícula biliar y vías biliares",
+      "nome": "Pron",
+      "descricao": "La presión con los pulgares permite buscar sensibilidad en la proyección vesicular durante el descenso inspiratorio.",
+      "alvo": "Sensibilidad de la región vesicular",
+      "pergunta": "En decúbito supino, el examinador apoya los pulgares bajo el reborde costal derecho y busca dolor durante la inspiración. ¿Qué maniobra vesicular utiliza esta técnica?"
+    },
+    "Chiray": {
+      "grupo": "Vesícula biliar y vías biliares",
+      "nome": "Chiray",
+      "descricao": "La posición lateral izquierda facilita la exploración de la región vesicular mediante palpación subcostal.",
+      "alvo": "Palpación vesicular en decúbito lateral izquierdo",
+      "pergunta": "El paciente se coloca en decúbito lateral izquierdo, con las extremidades inferiores flexionadas, mientras se busca dolor bajo el reborde costal derecho durante la inspiración. ¿Qué maniobra se describe?"
+    },
+    "Courvoisier": {
+      "grupo": "Vesícula biliar y vías biliares",
+      "nome": "Courvoisier",
+      "descricao": "La asociación sugiere obstrucción biliar distal, a menudo neoplásica, pero no determina por sí sola la etiología.",
+      "alvo": "Ictericia con vesícula palpable indolora",
+      "pergunta": "Un paciente con ictericia presenta una vesícula aumentada, palpable e indolora. ¿Qué signo corresponde a esta asociación?"
+    },
+    "Mathieu": {
+      "grupo": "Hígado",
+      "nome": "Mathieu",
+      "descricao": "La palpación hepática en gancho utiliza los dedos flexionados para percibir el borde que desciende durante la inspiración; no se realiza con el puño cerrado.",
+      "alvo": "Borde hepático por palpación en gancho",
+      "pergunta": "Orientado hacia los pies del paciente, el examinador coloca los dedos curvados junto al reborde costal derecho para sentir el borde del hígado durante la inspiración. ¿Qué técnica utiliza?"
+    },
+    "Gilbert": {
+      "grupo": "Hígado",
+      "nome": "Gilbert",
+      "descricao": "La técnica bimanual utiliza las manos apoyadas anteriormente para delimitar el borde hepático durante la respiración.",
+      "alvo": "Palpación hepática bimanual anterior",
+      "pergunta": "En la palpación hepática, las manos se sitúan en el abdomen con los dedos formando un ángulo y los bordes radiales próximos, siguiendo el descenso del órgano. ¿Qué técnica se describe?"
+    },
+    "Chauffard": {
+      "grupo": "Hígado",
+      "nome": "Chauffard",
+      "descricao": "El impulso posterior acerca el hígado a la mano anterior y facilita la percepción del borde.",
+      "alvo": "Peloteo hepático bimanual",
+      "pergunta": "Una mano aplicada a la región lumbar derecha transmite pequeños impulsos, mientras la otra busca el borde hepático en la pared abdominal anterior. ¿Qué técnica se utiliza?"
+    },
+    "Riedel": {
+      "grupo": "Hígado",
+      "nome": "Riedel",
+      "descricao": "El lóbulo de Riedel es una variante anatómica del hígado, no una maniobra de exploración física.",
+      "alvo": "Alteración del contorno/lóbulo hepático",
+      "pergunta": "Una prolongación inferior alargada del lóbulo derecho del hígado puede simular una masa sin representar aumento difuso del órgano. ¿Qué variante anatómica es?"
+    },
+    "Lépine": {
+      "grupo": "Vesícula biliar y vías biliares",
+      "nome": "Lépine",
+      "descricao": "Se percute la región de la vesícula con el dedo medio doblado y se observa si hay dolor.",
+      "alvo": "Dolor a la percusión de la vesícula",
+      "pergunta": "¿Qué técnica consiste en percutir la región de la vesícula con el dedo medio doblado y observar si aparece dolor?"
+    },
+    "Percussão hepática": {
+      "grupo": "Hígado",
+      "nome": "Percusión hepática",
+      "descricao": "La distancia entre los límites superior e inferior de la matidez permite estimar la extensión vertical del hígado.",
+      "alvo": "Límites y tamaño del hígado",
+      "pergunta": "El examinador identifica la transición entre resonancia pulmonar, sonido mate y timpanismo abdominal a lo largo de la línea medioclavicular derecha. ¿Qué técnica permite estimar la extensión del órgano?"
+    },
+    "Jobert": {
+      "grupo": "Hígado",
+      "nome": "Jobert",
+      "descricao": "La sustitución de la matidez hepática por timpanismo puede indicar aire libre en la cavidad peritoneal.",
+      "alvo": "Sospecha de neumoperitoneo",
+      "pergunta": "A la percusión, la región normalmente mate sobre el hígado presenta un sonido timpánico en un paciente con dolor abdominal agudo. ¿Qué signo está presente?"
+    },
+    "Palpação bimanual do baço": {
+      "grupo": "Bazo",
+      "nome": "Palpación bimanual del bazo",
+      "descricao": "El apoyo posterior acerca el bazo a la mano abdominal y permite buscar su borde cuando está aumentado.",
+      "alvo": "Búsqueda del borde esplénico",
+      "pergunta": "En decúbito supino, una mano sostiene el hemitórax izquierdo por detrás y la otra busca un borde bajo el reborde costal izquierdo durante la inspiración. ¿Qué técnica es?"
+    },
+    "Enganche do baço": {
+      "grupo": "Bazo",
+      "nome": "Enganche del bazo",
+      "descricao": "La palpación en gancho busca el borde del bazo durante su descenso inspiratorio. La técnica se superpone con la maniobra de Middleton.",
+      "alvo": "Esplenomegalia",
+      "pergunta": "Los dedos curvados bajo el reborde costal izquierdo buscan percibir el descenso de un borde visceral durante la inspiración. ¿Qué técnica esplénica se describe?"
+    },
+    "Middleton": {
+      "grupo": "Bazo",
+      "nome": "Middleton",
+      "descricao": "La técnica utiliza las puntas de los dedos en gancho para sentir el bazo durante la inspiración; no se define por una mano cerrada bajo el órgano.",
+      "alvo": "Palpación esplénica en gancho",
+      "pergunta": "¿Qué epónimo identifica la técnica de palpación esplénica en la que el examinador, próximo a la cabeza del paciente, curva los dedos bajo el reborde costal izquierdo?"
+    },
+    "Naegeli": {
+      "grupo": "Bazo",
+      "nome": "Naegeli",
+      "descricao": "Esta posición facilita el desplazamiento del bazo hacia la región palpable. La nomenclatura y las variantes posturales pueden superponerse con la posición de Schuster.",
+      "alvo": "Posición para palpación esplénica",
+      "pergunta": "¿Qué posición para palpar el bazo utiliza decúbito oblicuo derecho, intermedio entre supino y lateral?"
+    },
+    "Merlo": {
+      "grupo": "Bazo",
+      "nome": "Merlo",
+      "descricao": "La presión abdominal ayuda a acercar el bazo a la mano que palpa hacia el hipocondrio izquierdo.",
+      "alvo": "Palpación esplénica con presión abdominal auxiliar",
+      "pergunta": "Con el paciente en decúbito oblicuo derecho, una mano presiona la fosa ilíaca derecha hacia el hipocondrio derecho y la otra busca el bazo durante la inspiración. ¿Qué maniobra se describe?"
+    },
+    "Nixon": {
+      "grupo": "Bazo",
+      "nome": "Nixon",
+      "descricao": "Paciente en decúbito lateral derecho, realizando percusión.",
+      "alvo": "Paciente de lado derecho + percusión",
+      "pergunta": "¿Qué técnica del bazo se realiza con el paciente acostado sobre el lado derecho y con percusión?"
+    },
+    "Schuster": {
+      "grupo": "Bazo",
+      "nome": "Schuster",
+      "descricao": "Paciente en posición lateral de aproximadamente 45°, con la pierna izquierda flexionada; se realiza tracción del abdomen y palpación.",
+      "alvo": "45°, pierna izquierda flexionada, tracción abdominal y palpación",
+      "pergunta": "¿Qué técnica se realiza con el paciente en posición lateral de aproximadamente 45°, con la pierna izquierda flexionada, seguida de tracción del abdomen y palpación?"
+    },
+    "Espaço de Traube": {
+      "grupo": "Bazo",
+      "nome": "Espacio de Traube",
+      "descricao": "La región se sitúa entre la sexta costilla, el reborde costal izquierdo y la línea axilar anterior. La matidez puede sugerir esplenomegalia, pero no es específica.",
+      "alvo": "Timpanismo gástrico y búsqueda de esplenomegalia",
+      "pergunta": "¿Qué región semilunar del hemitórax izquierdo, normalmente timpánica por la burbuja gástrica, puede volverse mate cuando aumenta el bazo?"
+    },
+    "Guyon": {
+      "grupo": "Riñón",
+      "nome": "Guyon",
+      "descricao": "La mano posterior realiza movimientos de impulso mientras la mano superior realiza la palpación; las piernas quedan ligeramente flexionadas.",
+      "alvo": "Palpación renal con peloteo posterior",
+      "pergunta": "¿Qué técnica renal utiliza una mano posterior para realizar impulsos y la mano superior para la palpación, con las piernas ligeramente flexionadas?"
+    },
+    "Goelet": {
+      "grupo": "Riñón",
+      "nome": "Goelet",
+      "descricao": "Utiliza ambas manos, con el paciente colocando una pierna arrodillada sobre una silla.",
+      "alvo": "Palpación renal de pie con apoyo",
+      "pergunta": "¿Qué técnica renal utiliza ambas manos y se describe con el paciente colocando una pierna arrodillada sobre una silla?"
+    },
+    "Israel": {
+      "grupo": "Riñón",
+      "nome": "Israel",
+      "descricao": "El paciente se acuesta sobre el lado opuesto al riñón que se examinará.",
+      "alvo": "Decúbito lateral opuesto al riñón examinado",
+      "pergunta": "¿En qué técnica renal se coloca al paciente de lado, sobre el lado opuesto al riñón que se examinará?"
+    },
+    "Punho-percussão de Giordano": {
+      "grupo": "Riñón",
+      "nome": "Puño-percusión de Giordano",
+      "descricao": "El dolor provocado puede aparecer en afecciones renales, como pielonefritis, pero no confirma por sí solo una causa. Existen variantes directas e indirectas.",
+      "alvo": "Dolor renal/pielonefritis",
+      "pergunta": "Golpes suaves con el borde cubital del puño en la región lumbar provocan dolor en el ángulo costovertebral. ¿Qué técnica se describe?"
+    },
+    "Murphy renal": {
+      "grupo": "Riñón",
+      "nome": "Murphy renal",
+      "descricao": "En la variante indirecta, una mano protege la región costovertebral y recibe el golpe suave del puño opuesto. La nomenclatura se superpone con la puñopercusión de Giordano.",
+      "alvo": "Percusión con el puño sobre la otra mano",
+      "pergunta": "¿Qué técnica renal se describe mediante la realización de percusión con el puño sobre la outra mano?"
+    },
+    "Ponto ureteral superior": {
+      "grupo": "Vías urinarias / uréter",
+      "nome": "Punto ureteral superior",
+      "descricao": "Este punto corresponde a la proyección clínica de la unión pieloureteral y puede ser sensible en afecciones urinarias.",
+      "alvo": "Dolor/irritación ureteral",
+      "pergunta": "¿Qué punto doloroso se sitúa en el cruce de la línea horizontal que pasa por el ombligo con el borde lateral del músculo recto abdominal?"
+    },
+    "Ponto ureteral médio — Tourneux": {
+      "grupo": "Vías urinarias / uréter",
+      "nome": "Punto ureteral medio — Tourneux",
+      "descricao": "Es una referencia para la región donde el uréter cruza los vasos ilíacos.",
+      "alvo": "Dolor ureteral",
+      "pergunta": "¿Qué punto doloroso se explora en la línea que une las espinas ilíacas anterosuperiores, cerca del borde lateral del recto abdominal?"
+    },
+    "Ponto ureteral inferior": {
+      "grupo": "Vías urinarias / uréter",
+      "nome": "Punto ureteral inferior",
+      "descricao": "Corresponde a la porción yuxtavesical del uréter; su exploración depende de la vía de examen pélvico adecuada.",
+      "alvo": "Dolor ureteral",
+      "pergunta": "¿Qué punto del trayecto urinario, junto a la entrada en la vejiga, es accesible por tacto vaginal o rectal y no por palpación abdominal habitual?"
+    },
+    "Manobra de Grott": {
+      "grupo": "Páncreas",
+      "nome": "Maniobra de Grott",
+      "descricao": "El apoyo posterior modifica la posición del tronco y favorece la exploración profunda de la región pancreática.",
+      "alvo": "Palpación profunda de la región pancreática",
+      "pergunta": "Para facilitar la palpación profunda del páncreas, se coloca un apoyo bajo la región lumbar del paciente en decúbito supino. ¿Qué maniobra utiliza este recurso?"
+    },
+    "Ponto doloroso de Desjardins": {
+      "grupo": "Páncreas",
+      "nome": "Punto doloroso de Desjardins",
+      "descricao": "Es una referencia superficial para la región de la cabeza pancreática; el dolor local debe interpretarse junto con los demás hallazgos.",
+      "alvo": "Sensibilidad en la región de la cabeza pancreática",
+      "pergunta": "¿Qué punto pancreático se localiza unos 5 a 7 cm por encima del ombligo, sobre la línea dirigida hacia la axila derecha?"
+    },
+    "Glenard — faixa de Glenard": {
+      "grupo": "Estómago",
+      "nome": "Glenard — franja de Glenard",
+      "descricao": "La sustentación abdominal es una maniobra histórica utilizada para evaluar síntomas atribuidos a ptosis visceral.",
+      "alvo": "Síntomas asociados a ptosis visceral",
+      "pergunta": "De pie detrás del paciente, el examinador sostiene y eleva la pared abdominal para comprobar si mejoran las molestias. ¿Qué maniobra se describe?"
+    },
+    "Bazuqueio de Chaumel": {
+      "grupo": "Estómago",
+      "nome": "Chapoteo de Chaumel",
+      "descricao": "Se relaciona con la búsqueda de ruido hidroaéreo o chapoteio gástrico.",
+      "alvo": "Ruido hidroaéreo/chapoteo gástrico",
+      "pergunta": "¿Qué maniobra está relacionada con la búsqueda de ruido hidroaéreo o de chapoteo gástrico?"
+    },
+    "Palpação da aorta abdominal": {
+      "grupo": "Aorta",
+      "nome": "Palpación de la aorta abdominal",
+      "descricao": "La técnica evalúa el carácter expansivo de la pulsación y la anchura aproximada del vaso; la sospecha de dilatación requiere confirmación por imagen.",
+      "alvo": "Evaluación de la aorta/expansión pulsátil/aneurisma",
+      "pergunta": "Al explorar una pulsación epigástrica, el examinador coloca los dedos a ambos lados para estimar la anchura y percibir expansión lateral. ¿Qué técnica utiliza?"
+    },
+    "Cullen": {
+      "grupo": "Hemorragia / pancreatitis hemorrágica",
+      "nome": "Cullen",
+      "descricao": "Presencia de equimosis en la región periumbilical. Puede acompañar una hemorragia interna y no es exclusivo de pancreatitis.",
+      "alvo": "Equimosis periumbilical",
+      "pergunta": "¿Qué signo se caracteriza por la presencia de equimosis en la región alrededor del ombligo?"
+    },
+    "Grey-Turner": {
+      "grupo": "Hemorragia / pancreatitis hemorrágica",
+      "nome": "Grey-Turner",
+      "descricao": "Presencia de equimosis en los flancos. Puede acompañar una hemorragia interna y no es exclusivo de pancreatitis.",
+      "alvo": "Equimosis en los flancos",
+      "pergunta": "¿Qué signo se caracteriza por la presencia de equimosis en los flancos?"
+    },
+    "Fox": {
+      "grupo": "Hemorragia / pancreatitis hemorrágica",
+      "nome": "Fox",
+      "descricao": "La sangre puede alcanzar el tejido subcutáneo del muslo al recorrer planos fasciales retroperitoneales.",
+      "alvo": "Equimosis en la porción proximal del muslo",
+      "pergunta": "En un paciente con hemorragia retroperitoneal aparece equimosis en la porción proximal del muslo, por debajo del ligamento inguinal. ¿Qué signo se describe?"
+    },
+    "Bryant": {
+      "grupo": "Hemorragia / pancreatitis hemorrágica",
+      "nome": "Bryant",
+      "descricao": "Alteraciones hemorrágicas en la región escrotal. Puede acompañar una hemorragia interna y no es exclusivo de pancreatitis.",
+      "alvo": "Alteraciones hemorrágicas en la región escrotal",
+      "pergunta": "¿Qué signo está relacionado con alteraciones hemorrágicas en la región escrotal?"
+    },
+    "Piparote": {
+      "grupo": "Ascitis",
+      "nome": "Piparote",
+      "descricao": "La transmisión del impulso por el líquido puede percibirse en ascitis abundante. Piparote y onda líquida son denominaciones equivalentes.",
+      "alvo": "Ascitis abundante",
+      "pergunta": "Un impulso aplicado a un flanco se percibe con la mano en el opuesto, mientras un apoyo en la línea media reduce la transmisión por la piel. ¿Qué maniobra es?"
+    },
+    "Macicez móvel": {
+      "grupo": "Ascitis",
+      "nome": "Matidez móvil",
+      "descricao": "El líquido libre se redistribuye por gravedad y cambia el límite entre matidez y timpanismo.",
+      "alvo": "Líquido libre en la cavidad",
+      "pergunta": "Tras pasar del decúbito supino al lateral, el área de sonido mate a la percusión se desplaza hacia la región dependiente. ¿Qué signo está presente?"
+    },
+    "Semicírculo de Skoda": {
+      "grupo": "Ascitis",
+      "nome": "Semicírculo de Skoda",
+      "descricao": "En la ascitis, las asas con gas tienden a ocupar la región central, mientras el líquido se acumula en las zonas dependientes.",
+      "alvo": "Ascitis",
+      "pergunta": "En decúbito supino, la percusión revela timpanismo central y matidez en los flancos y el abdomen inferior, con un límite de concavidad superior. ¿Qué hallazgo se describe?"
+    },
+    "Onda líquida": {
+      "grupo": "Ascitis",
+      "nome": "Onda líquida",
+      "descricao": "Es el mismo fenómeno explorado mediante el piparote. El apoyo en la línea media ayuda a reducir la transmisión superficial.",
+      "alvo": "Ascitis",
+      "pergunta": "Al buscar ascitis, una mano detecta en el flanco opuesto el impulso transmitido tras una percusión lateral. ¿Qué hallazgo se percibe?"
+    },
+    "Valsalva": {
+      "grupo": "Hernias y masas",
+      "nome": "Valsalva",
+      "descricao": "El esfuerzo aumenta la presión intraabdominal y puede hacer más evidente una hernia.",
+      "alvo": "Hernias/masas que aumentan con la presión",
+      "pergunta": "Se solicita una espiración forzada contra la glotis cerrada para observar si aumenta una protrusión abdominal. ¿Qué maniobra se utiliza?"
+    },
+    "Landivar": {
+      "grupo": "Hernias y masas",
+      "nome": "Landivar",
+      "descricao": "El bloqueo del anillo profundo ayuda a diferenciar clínicamente las hernias inguinales indirectas de las directas.",
+      "alvo": "Hernia inguinal",
+      "pergunta": "Tras reducir una hernia inguinal, el examinador comprime la proyección del anillo profundo y pide al paciente que haga esfuerzo para observar si reaparece la protrusión. ¿Qué maniobra es?"
+    },
+    "Zieman": {
+      "grupo": "Hernias y masas",
+      "nome": "Zieman",
+      "descricao": "La localización del impulso percibido con los dedos ayuda a distinguir las protrusiones inguinales de las femorales.",
+      "alvo": "Diferenciación de hernias",
+      "pergunta": "El examinador coloca tres dedos sobre las proyecciones de los anillos inguinales y del canal femoral y pide al paciente que tosa. ¿Qué maniobra se describe?"
+    },
+    "Deslizamento de Glenard": {
+      "grupo": "Hernias y masas",
+      "nome": "Deslizamiento de Glenard",
+      "descricao": "El movimiento transversal de los dedos permite reconocer el contorno de segmentos intestinales u otras estructuras palpables.",
+      "alvo": "Masas/órganos móviles",
+      "pergunta": "En la palpación profunda, los dedos cruzan transversalmente una estructura abdominal durante la espiración para evaluar forma, consistencia y movilidad. ¿Qué técnica se describe?"
+    },
+    "Palpação do ceco": {
+      "grupo": "Hernias y masas",
+      "nome": "Palpación del ciego",
+      "descricao": "La exploración de esta porción inicial del intestino grueso evalúa sensibilidad, distensión y consistencia.",
+      "alvo": "Evaluación del ciego",
+      "pergunta": "En la fosa ilíaca derecha se busca una estructura intestinal redondeada y compresible que puede producir gorgoteo con la presión. ¿Qué técnica se utiliza?"
+    },
+    "Morris": {
+      "grupo": "Hernias y masas",
+      "nome": "Morris",
+      "descricao": "El punto de Morris está más cerca del ombligo que el de McBurney y es una referencia para buscar sensibilidad apendicular.",
+      "alvo": "Región apendicular",
+      "pergunta": "¿Qué punto apendicular se sitúa en la línea entre el ombligo y la espina ilíaca anterosuperior derecha, en la unión del tercio medial con los dos tercios laterales?"
+    }
+  },
+  "textos": {
+    "pt": {
+      "tipo": "Identificação do achado ou técnica",
+      "correto": "✅ Correto!",
+      "incorreto": "❌ Incorreto.",
+      "resposta": "A resposta é",
+      "respostaCorreta": "A resposta correta é",
+      "descricao": "Descrição:",
+      "alvo": "Alvo:",
+      "proxima": "Próxima questão →",
+      "final": "🏆 Simulado finalizado!",
+      "suaPontuacao": "Sua pontuação",
+      "acertos": "Acertos",
+      "erros": "Erros",
+      "aproveitamento": "Aproveitamento",
+      "novamente": "🔄 Fazer novamente",
+      "excelente": "Excelente desempenho! Você demonstrou ótimo domínio do conteúdo.",
+      "muitoBom": "Muito bom! Você teve um bom desempenho, mas ainda pode revisar alguns pontos.",
+      "bomComeco": "Bom começo. Vale a pena revisar as manobras e sinais que você errou.",
+      "continueEstudando": "Continue estudando. Refazer o simulado pode ajudar a fixar o conteúdo."
+    },
+    "es": {
+      "tipo": "Identificación del hallazgo o técnica",
+      "correto": "✅ ¡Correcto!",
+      "incorreto": "❌ Incorrecto.",
+      "resposta": "La respuesta es",
+      "respostaCorreta": "La respuesta correcta es",
+      "descricao": "Descripción:",
+      "alvo": "Objetivo:",
+      "proxima": "Siguiente pregunta →",
+      "final": "🏆 ¡Simulado finalizado!",
+      "suaPontuacao": "Tu puntuación",
+      "acertos": "Aciertos",
+      "erros": "Errores",
+      "aproveitamento": "Rendimiento",
+      "novamente": "🔄 Hacer de nuevo",
+      "excelente": "¡Excelente desempeño! Demostraste un excelente dominio del contenido.",
+      "muitoBom": "¡Muy bien! Tuviste un buen desempeño, pero todavía puedes repasar algunos puntos.",
+      "bomComeco": "Buen comienzo. Vale la pena repasar las maniobras y signos que fallaste.",
+      "continueEstudando": "Continúa estudiando. Repetir el simulado puede ayudarte a fijar el contenido."
+    }
+  }
+}

@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Simulado de estudos de Semiologia e Farmacologia.">
+    <title>Simulados de Medicina</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <main class="container">
+        <!-- 0. Acesso -->
+        <section id="tela-acesso" class="tela tela-acesso" aria-labelledby="titulo-acesso">
+            <button id="alternar-tema-acesso" class="botao-tema botao-tema-acesso" type="button" aria-label="Ativar modo escuro" aria-pressed="false">
+                <span class="tema-icone" aria-hidden="true">☾</span>
+                <span class="tema-texto">Modo escuro</span>
+            </button>
+            <div class="acesso-conteudo">
+                <div class="logo-medico acesso-logo" aria-hidden="true">🩺</div>
+                <h1 id="titulo-acesso">Simulados de Medicina</h1>
+                <p id="subtitulo-acesso" class="subtitulo">Acesso à plataforma de estudos</p>
+                <form id="formulario-acesso" class="formulario-acesso" novalidate>
+                    <label id="rotulo-email-acesso" for="email-acesso">E-mail</label>
+                    <input id="email-acesso" name="email" type="email" inputmode="email" autocomplete="email" placeholder="seu@email.com" required>
+                    <button id="botao-entrar" class="btn-proxima btn-entrar" type="submit">Entrar</button>
+                    <p id="mensagem-acesso" class="mensagem-acesso" aria-live="polite"></p>
+                </form>
+            </div>
+        </section>
+
+        <!-- 1. Idioma -->
+        <section id="tela-idioma" class="tela tela-idioma" aria-labelledby="titulo-idioma">
+            <div class="acoes-superiores">
+            <button id="alternar-tema-idioma" class="botao-tema" type="button" aria-label="Alternar modo de tema" aria-pressed="false">
+                <span class="tema-icone" aria-hidden="true">☾</span>
+                <span class="tema-texto">Modo escuro</span>
+            </button>
+            <button id="abrir-configuracoes" class="botao-configuracoes" type="button" aria-label="Abrir configurações" title="Configurações">
+                <span aria-hidden="true">⚙</span>
+            </button>
+            </div>
+            <div class="logo-medico" aria-hidden="true">🩺</div>
+            <h1 id="titulo-idioma">Simulados de Medicina</h1>
+            <p id="subtitulo-idioma" class="subtitulo">Semiologia e Farmacologia</p>
+            <h2 id="pergunta-idioma">Escolha o idioma / Elige el idioma</h2>
+            <div class="selecao-botoes idiomas" role="group" aria-label="Seleção de idioma">
+                <button class="botao-selecao botao-idioma" type="button" data-idioma="pt">🇧🇷 Português</button>
+                <button class="botao-selecao botao-idioma" type="button" data-idioma="es">🇪🇸 Español</button>
+            </div>
+        </section>
+
+        <!-- Configurações -->
+        <section id="tela-configuracoes" class="tela tela-selecao tela-configuracoes escondido" aria-labelledby="titulo-configuracoes">
+            <div class="cabecalho-selecao">
+                <h1 id="titulo-configuracoes">Configurações</h1>
+                <p id="subtitulo-configuracoes">Personalize a aparência do aplicativo.</p>
+            </div>
+            <div class="configuracoes-lista">
+                <div class="configuracao-item">
+                    <div class="configuracao-texto">
+                        <strong id="rotulo-aparencia">Aparência</strong>
+                        <span id="descricao-aparencia">Escolha o modo de visualização.</span>
+                    </div>
+                    <button id="alternar-tema-config" class="botao-config-opcao" type="button"></button>
+                </div>
+                <div class="configuracao-item configuracao-fonte">
+                    <div class="configuracao-texto">
+                        <strong id="rotulo-fonte">Tamanho da fonte</strong>
+                        <span id="descricao-fonte">Ajuste a leitura para seu conforto.</span>
+                    </div>
+                    <div class="controle-fonte" role="group" aria-label="Tamanho da fonte">
+                        <button type="button" class="botao-fonte" data-fonte="pequena" aria-label="Fonte pequena">A−</button>
+                        <button type="button" class="botao-fonte" data-fonte="normal" aria-label="Fonte normal">A</button>
+                        <button type="button" class="botao-fonte" data-fonte="grande" aria-label="Fonte grande">A+</button>
+                        <button type="button" class="botao-fonte" data-fonte="muito-grande" aria-label="Fonte muito grande">A++</button>
+                    </div>
+                </div>
+                <div class="configuracao-item configuracao-idioma">
+                    <div class="configuracao-texto">
+                        <strong id="rotulo-idioma-config">Idioma</strong>
+                        <span id="descricao-idioma-config">Idioma atualmente selecionado.</span>
+                    </div>
+                    <span id="idioma-atual-config" class="valor-config">Português</span>
+                </div>
+            </div>
+            <button id="sair-conta" class="btn-secundario btn-sair" type="button">Sair</button>
+            <button id="voltar-configuracoes" class="btn-secundario" type="button">Voltar</button>
+        </section>
+
+        <!-- 2. Matéria -->
+        <section id="tela-materias" class="tela tela-selecao escondido" aria-labelledby="titulo-materias">
+            <button id="alternar-tema-materias" class="botao-tema" type="button" aria-label="Alternar modo de tema" aria-pressed="false">
+                <span class="tema-icone" aria-hidden="true">☾</span>
+                <span class="tema-texto">Modo escuro</span>
+            </button>
+            <div class="cabecalho-selecao">
+                <h1 id="titulo-materias">Selecione a matéria</h1>
+                <p id="subtitulo-materias">Escolha a matéria que deseja estudar.</p>
+            </div>
+            <div id="lista-materias" class="lista-selecao" role="group" aria-label="Matérias"></div>
+            <button id="voltar-idioma" class="btn-secundario" type="button">Voltar ao idioma</button>
+        </section>
+
+        <!-- 3. Fase -->
+        <section id="tela-fases" class="tela tela-selecao escondido" aria-labelledby="titulo-fases">
+            <div class="cabecalho-selecao">
+                <div id="icone-fases" class="icone-selecao" aria-hidden="true">📖</div>
+                <h1 id="titulo-fases">Selecione a fase</h1>
+                <p id="subtitulo-fases">Escolha a fase que deseja estudar.</p>
+            </div>
+            <div id="lista-fases" class="lista-selecao" role="group" aria-label="Fases"></div>
+            <p id="mensagem-fases" class="mensagem-fases" aria-live="polite"></p>
+            <button id="voltar-materias" class="btn-secundario" type="button">Voltar às matérias</button>
+        </section>
+
+        <!-- 4. Questionário -->
+        <section id="tela-jogo" class="tela escondido" aria-labelledby="titulo-jogo">
+            <header class="cabecalho">
+                <h1 id="titulo-jogo">🩺 Simulado</h1>
+                <p id="subtitulo-jogo">Carregando...</p>
+            </header>
+
+            <section class="status" aria-label="Status do questionário" id="status-questionario">
+                <div><span id="rotulo-questao">Questão</span><strong id="numero-questao">1/1</strong></div>
+                <div><span id="rotulo-pontos">Pontos</span><strong id="pontuacao">0</strong></div>
+                <div><span id="rotulo-grupo">Grupo</span><strong id="grupo-atual">—</strong></div>
+            </section>
+
+            <section class="card" aria-live="polite">
+                <div class="tipo-questao" id="tipo-questao">Questão</div>
+                <h2 id="pergunta">Carregando pergunta...</h2>
+                <div id="alternativas" class="alternativas" role="group" aria-label="Alternativas"></div>
+                <div id="feedback" class="feedback vazio" aria-live="polite"></div>
+                <button id="proxima" class="btn-proxima" type="button" disabled>Próxima questão →</button>
+                <button id="voltar-fases" class="btn-secundario btn-voltar-fases" type="button">Escolher outra fase</button>
+            </section>
+
+            <section id="resultado-final" class="resultado-final escondido" aria-labelledby="titulo-resultado">
+                <h2 id="titulo-resultado">🏆 Simulado finalizado!</h2>
+                <p id="mensagem-final"></p>
+                <div class="nota"><span id="rotulo-pontuacao-final">Sua pontuação</span><strong id="pontuacao-final">0</strong></div>
+                <div class="resumo">
+                    <div><span id="rotulo-acertos-final">Acertos</span><strong id="acertos-final">0</strong></div>
+                    <div><span id="rotulo-erros-final">Erros</span><strong id="erros-final">0</strong></div>
+                    <div><span id="rotulo-aproveitamento-final">Aproveitamento</span><strong id="porcentagem-final">0%</strong></div>
+                </div>
+                <button id="reiniciar" class="btn-reiniciar" type="button">🔄 Fazer novamente</button>
+                <button id="voltar-fases-resultado" class="btn-secundario" type="button">Escolher outra fase</button>
+            </section>
+        </section>
+    </main>
+
+    <script src="./fases.js"></script>
+    <script src="./auth.js"></script>
+    <script src="./script.js"></script>
+</body>
+</html>
