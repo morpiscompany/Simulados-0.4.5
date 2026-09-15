@@ -24,6 +24,12 @@
       "plan": "premium",
       "expiresAt": null
     },
+     {
+      "email": "rlucali-es@udabol.edu.bo",
+      "active": true,
+      "plan": "premium",
+      "expiresAt": null
+    },
     {
       "email": "bloqueado@email.com",
       "active": false,
