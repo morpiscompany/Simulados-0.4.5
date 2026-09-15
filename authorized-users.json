@@ -31,6 +31,12 @@
       "expiresAt": null
     },
     {
+      "email": "usuarioteste@morpis.com",
+      "active": true,
+      "plan": "premium",
+      "expiresAt": null
+    },
+    {
       "email": "bloqueado@email.com",
       "active": false,
       "plan": "premium",
