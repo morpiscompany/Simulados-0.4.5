@@ -18,6 +18,12 @@
       "plan": "premium",
       "expiresAt": null
     },
+     {
+      "email": "bfreitas-es@udabol.edu.bo",
+      "active": true,
+      "plan": "premium",
+      "expiresAt": "2026-10-18T23:59Z"
+    },
     {
       "email": "fabianareyes2006vasquez@gmail.com",
       "active": true,
